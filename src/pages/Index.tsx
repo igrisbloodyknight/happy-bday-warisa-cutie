@@ -5,7 +5,7 @@ import PhotoCard from '@/components/PhotoCard';
 import AddPhotoForm from '@/components/AddPhotoForm';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { Heart, Cake, Gift, Party, Music } from 'lucide-react';
+import { Heart, Cake, Gift, PartyPopper, Music } from 'lucide-react';
 
 const SAMPLE_PHOTOS = [
   {
@@ -41,7 +41,7 @@ const Index = () => {
       <Heart key="heart" className="text-pink animate-bounce-slight" />,
       <Cake key="cake" className="text-pink animate-float" />,
       <Gift key="gift" className="text-pink animate-wiggle" />,
-      <Party key="party" className="text-pink animate-bounce-slight" />,
+      <PartyPopper key="party-popper" className="text-pink animate-bounce-slight" />,
       <Music key="music" className="text-pink animate-float" />
     ];
     return icons[index % icons.length];
