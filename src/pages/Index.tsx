@@ -15,26 +15,26 @@ import {
 
 const SAMPLE_PHOTOS = [
   {
-    imageUrl: "https://images.unsplash.com/photo-1531956531700-dc0ee0f1f9a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80",
-    note: "Remember our adventure in the mountains? Best day ever!"
+    imageUrl: "IMG_20250410_125905_345~2.jpg",
+    note: "SHE LOOKS JUST LIKE A DREAM THE PRETTIEST GIRL I HAVE EVER SEEN THESE LYRICS ARE MADE FOR YOU SWEETHEART "
   },
   {
-    imageUrl: "https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    note: "Happy birthday to the most amazing person! May your day be filled with joy!"
+    imageUrl: "IMG_20250410_143629_246~2.jpg",
+    note: "THE PIC OF YOU I WILL PUT IN MY WALLET YOU ARE MOST PRECIOUS BEAUTIFUL GIRL YOU DESERVE ALL HAPPINESS DARLING "
   },
   {
-    imageUrl: "https://images.unsplash.com/photo-1562595410-2340828c83e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    note: "Wishing you all the happiness in the world on your special day!"
+    imageUrl: "IMG-20250410-WA0009.jpg",
+    note: " AWWWWWWWWWWWW!!!!!! THE GANGSTER CUTE PRINCESS ONE OF MY FAVOURITE PHOTO THE SWEET GIRL YOU WILL BE ALWAYS IN MY EYES"
   }
 ];
 
 const Index = () => {
   const [photos] = useState(SAMPLE_PHOTOS);
   const [step, setStep] = useState(0);
-  const birthdayText = "Happy Birthday!";
-  const personalMessage = "I could send a simple message, but I wanted to make something special... because you are special.";
-  const letter = "Dear wonderful you,\n\nAs you celebrate another year of being the amazing person that you are, I wanted to take a moment to tell you how much you mean to me. Your kindness, your laughter, and your beautiful spirit brighten every day. Thank you for being you!\n\nWith all my love,\nYour Friend";
-  const finalMessage = "Sending you the biggest birthday hugs and wishes for a magical year ahead!";
+  const birthdayText = "Happy Birthday! WARISA CUTIE";
+  const personalMessage = "I could send a simple message, but I wanted to make something special... because you are special for me and will always be ";
+  const letter = "Dear warisa cutie , its your birthday and i really hope you achieve geat happiness in your life and i want to make it special i am sorry i cannot send gifts bcz of your family but i wanted to make it special and warisa you are one of the perosn who is SWEET and KIND and i like the prettiest girl i have seen i hope you manifest what you dream and yes your dreams will come true bcz you deserve every happiness in the world and HAPPY BIRTHDAY WARISA LOTS OF WISHES FROM ME AND BE HAPPY ALWAYS PRETTY GIRL YOU DESERVE ALL HAPPINESS BEAUTIFUL GIRL ";
+  const finalMessage = "Sending you the biggest birthday hugs and wishes from my side! I HOPE YOU LIKED MY LITTLE GIFT SWEETHEART FROM YOUR FAVOURITE HACKER EX ";
 
   useEffect(() => {
     // Automatic progression through steps with delays
