@@ -15,15 +15,15 @@ import {
 
 const PHOTOS = [
   {
-    imageUrl: "IMG_20250410_125905_345~2.jpg",
+    imageUrl: "public/lovable-uploads/c272569e-3b4e-46a3-ab66-e9c9aba091ce.png",
     note: "SHE LOOKS JUST LIKE A DREAM THE PRETTIEST GIRL I HAVE EVER SEEN THESE LYRICS ARE MADE FOR YOU SWEETHEART "
   },
   {
-    imageUrl: "IMG_20250410_143629_246~2.jpg",
+    imageUrl: "public/lovable-uploads/550fb0bf-7ea5-453a-813f-d8fb6472cf3b.png",
     note: "THE PIC OF YOU I WILL PUT IN MY WALLET YOU ARE MOST PRECIOUS BEAUTIFUL GIRL YOU DESERVE ALL HAPPINESS DARLING "
   },
   {
-    imageUrl: "IMG-20250410-WA0009.jpg",
+    imageUrl: "public/lovable-uploads/ba98d8c3-2791-42a4-b16a-0ac8ffa4ea23.png",
     note: " AWWWWWWWWWWWW!!!!!! THE GANGSTER CUTE PRINCESS ONE OF MY FAVOURITE PHOTO THE SWEET GIRL YOU WILL BE ALWAYS IN MY EYES"
   }
 ];
