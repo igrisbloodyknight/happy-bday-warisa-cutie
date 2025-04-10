@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
   nextCarouselBtn.addEventListener('click', nextPhoto);
 
   // Automatic progression through steps (can be disabled by commenting out)
-  const timers = [
-    setTimeout(() => autoAdvanceStep(), 10000),  // Move to step 1 after 3s
-    setTimeout(() => autoAdvanceStep(), 13000),  // Move to step 2 after 7s
-    setTimeout(() => autoAdvanceStep(), 20000), // Move to step 3 after 13s
-  ];
+  // const timers = [
+   // setTimeout(() => autoAdvanceStep(), 10000),  // Move to step 1 after 3s
+   // setTimeout(() => autoAdvanceStep(), 13000),  // Move to step 2 after 7s
+   // setTimeout(() => autoAdvanceStep(), 20000), // Move to step 3 after 13s
+ // ];
 
   // Functions
   function showStep(stepIndex) {
