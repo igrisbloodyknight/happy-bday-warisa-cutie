@@ -13,7 +13,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-const SAMPLE_PHOTOS = [
+const PHOTOS = [
   {
     imageUrl: "IMG_20250410_125905_345~2.jpg",
     note: "SHE LOOKS JUST LIKE A DREAM THE PRETTIEST GIRL I HAVE EVER SEEN THESE LYRICS ARE MADE FOR YOU SWEETHEART "
@@ -29,7 +29,7 @@ const SAMPLE_PHOTOS = [
 ];
 
 const Index = () => {
-  const [photos] = useState(SAMPLE_PHOTOS);
+  const [photos] = useState(PHOTOS);
   const [step, setStep] = useState(0);
   const birthdayText = "Happy Birthday! WARISA CUTIE";
   const personalMessage = "I could send a simple message, but I wanted to make something special... because you are special for me and will always be ";
